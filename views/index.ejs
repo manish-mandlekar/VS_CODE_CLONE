@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div class="container">
+      <div id="ulta">
+        <h3>></h3>
+        <h3><i class="ri-close-circle-line"></i> 0</h3>
+        <h3><i class="ri-alert-line"></i> 0</h3>
+      </div><html></html>
+      <div id="seedha">
+        <h3>Ln21,Col 24</h3>
+        <h3>Spaces:2</h3>
+        <h3>UTF-8</h3>
+        <h3>LF</h3>
+        <h3>HTML</h3>
+        <h3><i class="ri-gps-line"></i> Go Live</h3>
+        
+        <h3><i class="ri-shield-user-line"></i></h3>
+        <h3><i class="ri-notification-off-line"></i></h3>
+      </div>
+    </div>
+    <div id="left">
+      <div id="nav">
+        
+        <div id="icons">
+          <i class="ri-play-line"></i>
+          <i class="ri-layout-column-line"></i>
+          <i class="ri-more-line"></i>
+        </div>
+      </div>
+    
+    </div>
+    <div id="right">
+      <div id="nave">
+        <h3>Explorer</h3>
+        <i class="ri-more-line"></i>
+      </div>
+      <div id="nbar">
+        <div id="l">
+          <i class="ri-arrow-down-s-line"></i>
+          <h3>VSCODE</h3>
+        </div>
+        <div id="r">
+          <i id="first" class="ri-file-3-line"></i>
+          <i class="ri-folder-2-line"></i>
+          <i class="ri-arrow-go-forward-line"></i>
+        <i class="ri-folders-fill"></i>
+        </div>
+      </div>
+      <form action="/create" method="post">
+        <input type="text" name="filename">
+      </form>
+     <% data.forEach(element =>{ %>
+      <a id="no" href="/<%=element %>"><%= element %></a> <a id="d" href="/dlt/<%=element  %>">X</a> <br>
+    <% }) %>
+    </div>
+    <div id="right2">
+      <div id="up">
+        <i class="ri-file-copy-line"></i>
+        <i class="ri-search-line"></i>
+        <i class="ri-open-source-line"></i>
+        <i class="ri-google-play-line"></i>
+        <i class="ri-tv-2-line"></i>
+        <i class="ri-microsoft-line"></i>
+        <i class="ri-water-flash-line"></i>
+      </div>
+      <div id="down">
+        <i class="ri-user-line"></i>
+        <i class="ri-settings-2-line"></i>
+      </div>
+    </div>
+  </div>
+  <script src="../javascripts/script.js"></script>
+</body>
+
+</html>
